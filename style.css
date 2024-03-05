@@ -1,0 +1,39 @@
+html{
+    background-color: white;
+    font-family: sans-serif;
+    color: white;
+}
+h1{
+    margin-bottom: 10px;
+    color: white;
+}
+#stats{
+    background: linear-gradient(to right, #5c6bc0, #512da8);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    width: 80%;
+}
+h2{
+    color: white;
+}
+button{
+    background-color: white;
+    border: none;
+    width: 30%;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.35);
+    transition:300ms ease-in-out;
+}
+button:active{
+    width: 35%;
+    height: 35px;
+    font-size: 27px;
+}
+#graph{
+    background-color:white;
+    margin-bottom: 20px;
+}
